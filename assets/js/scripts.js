@@ -182,25 +182,25 @@ jQuery(window).load(function() {
 	$(window).on('resize', function(){ $('.portfolio-masonry').masonry(); });
 	
 	// image popup	
-	$('.portfolio-box-text').magnificPopup({
-		type: 'image',
-		gallery: {
-			enabled: true,
-			navigateByImgClick: true,
-			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-		},
-		image: {
-			tError: 'The image could not be loaded.',
-			titleSrc: function(item) {
-				return item.el.find('p').text();
-			}
-		},
-		callbacks: {
-			elementParse: function(item) {
-				item.src = item.el.parent('.portfolio-box-text-container').siblings('img').attr('src');
-			}
-		}
-	});
+	// $('.portfolio-box-text').magnificPopup({
+	// 	type: 'image',
+	// 	gallery: {
+	// 		enabled: true,
+	// 		navigateByImgClick: true,
+	// 		preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+	// 	},
+	// 	image: {
+	// 		tError: 'The image could not be loaded.',
+	// 		titleSrc: function(item) {
+	// 			return item.el.find('p').text();
+	// 		}
+	// 	},
+	// 	callbacks: {
+	// 		elementParse: function(item) {
+	// 			item.src = item.el.parent('.portfolio-box-text-container').siblings('img').attr('src');
+	// 		}
+	// 	}
+	// });
 	
 });
 
