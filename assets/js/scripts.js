@@ -1,8 +1,8 @@
-
 /*
     Small slider 1
 */
 function small_slider_1(slider_container) {
+
 	var img_index = 1;
 	$('.' + slider_container + ' img').each(function(){
 		$(this).addClass('slider-1-img-' + img_index);
@@ -12,7 +12,6 @@ function small_slider_1(slider_container) {
 		}
 		img_index++;
 	});
-
 
 	// change slide
 	$(document).on('click', '.' + slider_container + ' .slider-1-nav span', function(){
