@@ -12,6 +12,8 @@ function small_slider_1(slider_container) {
 		}
 		img_index++;
 	});
+
+
 	// change slide
 	$(document).on('click', '.' + slider_container + ' .slider-1-nav span', function(){
 		if(!($(this).hasClass('slider-1-nav-item-active'))) {

@@ -150,7 +150,7 @@ img { max-width: 100%; }
 
 .slider-1-box { text-align: center; }
 
-.slider-1-box img { display: none; }
+.slider-1-box img { display: hidden; }
 .slider-1-box img.slider-1-img-active { display: inline; }
 
 .slider-1-nav { margin-top: 30px; }
