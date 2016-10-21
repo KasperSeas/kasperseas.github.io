@@ -73,10 +73,12 @@ jQuery(document).ready(function() {
     /*
         Fullscreen backgrounds
     */
-    $('.top-content').backstretch("assets/img/backgrounds/1.jpg");
+    var bgimg = $('.top-content').data("img");
+    $('.top-content').backstretch(bgimg);
     $('.counters-container').backstretch("assets/img/backgrounds/2.jpg");
     $('.our-motto-container').backstretch("assets/img/backgrounds/2.jpg");
-	
+
+
 	/*
 	    Testimonials
 	*/
