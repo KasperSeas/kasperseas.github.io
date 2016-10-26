@@ -31,6 +31,8 @@ if($_POST) {
 		mail($emailTo, $subject . " (riona)", $message, $headers);
     }
 
+    console.log("dsa")
+
     echo json_encode($array);
 
 }
