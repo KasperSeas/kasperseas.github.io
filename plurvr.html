@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="assets/css/animate.css">
         <link rel="stylesheet" href="assets/css/magnific-popup.css">
         <link rel="stylesheet" href="assets/css/form-elements.css">
-        <link rel="stylesheet" href="assets/css/style-dl.css">
+        <link rel="stylesheet" href="assets/css/style-plurvr.css">
         <link rel="stylesheet" href="assets/css/media-queries.css">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -46,7 +46,6 @@
             <a class="scroll-link" href="#top-content">Home</a>
             <a class="scroll-link" href="#images">Images</a>
             <a class="scroll-link" href="#skills-tech">Skills + Tech</a>
-            <a class="scroll-link" href="#demo">Demo</a>
             <a class="scroll-link" href="#frameworks">Frameworks</a>
             <div class="hide-menu">
                 <a href=""><i class="fa fa-bars"></i></a>
@@ -57,13 +56,15 @@
         </div>
         
         <!-- Top content -->
-        <div class="top-content" data-img="assets/img/portfolio/dlassets/dl-page-bg-dark.jpg">
+        <div class="top-content" data-img="assets/img/portfolio/pvrassets/plurvr-bg-dark.png">
             <div class="top-content-text wow fadeInUp">
                 <div class="divider-2"><span></span></div>
-                <h1><a href="http://www.plurvr.com/">PLUR VR</a></h1>
+                <h1><a href="http://www.plurvr.com/" target="_blank">PLUR VR</a></h1>
                 <div class="divider-2"><span></span></div>
                 <p><a href="http://www.plurvr.com/">www.plurvr.com</a></p>
-                <p><p>
+                <p>Step in a virtual reality experience that brings the rave to you.
+                    Get lost in the bright lights of PLUR - we're giving you the power to control
+                    the stage lights to some awesome music.<p>
             </div>
         </div>
 
@@ -72,16 +73,20 @@
         <div class="images-container section-container">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 what-we-do-box wow fadeInUp">
-                        <img src="assets/img/portfolio/dlassets/dlframes.png" alt="" data-at2x="assets/img/portfolio/dlassets/dlframes.png">
+                    <div class="col-sm-6 what-we-do-box wow fadeInUp">
+                       <img border="0" src="assets/img/portfolio/pvrassets/plurvr-red.png" height="300"> 
                     </div>
+                    <div class="col-sm-6 what-we-do-box wow fadeInUp">
+                        <iframe allowfullscreen="" frameborder="0" height="270" src="https://www.youtube.com/embed/Jtu8Z53IiX4" width="480"></iframe>
+                        <p>
+                            Documentary of the creation of PLUR VR by Colburn Junus aka Croki
+                        </p>
+                    </div>
+                    <!-- <div class="col-sm-3 what-we-do-box wow fadeInUp">
+                        <img border="0" src="assets/img/portfolio/pvrassets/plurvr-red.png" height="150">
+                    </div> -->
+                    
                 </div>
-                <Center>
-                    <a href="https://itunes.apple.com/us/app/drews-list/id1090805496?mt=8">
-                    <img border="0" alt="DrewsList App" src="assets/img/portfolio/dlassets/dl_logo.png" height="48">
-                    <img border="0" alt="DrewsList App" src="assets/img/iTunesAppStoreButton.png" height="48">
-                    </a>
-                </center>
             </div>
         </div>
 
@@ -103,89 +108,71 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-4 what-we-do-box wow fadeInUp">
-                        <div class="what-we-do-box-icon"><i class="fa fa-refresh"></i></div>
+                        <div class="what-we-do-box-icon"><i class="fa fa-gears"></i></div>
 
                         <h3>Oculus Rift</h3>
-                        <p></p>
+                        <p>The Oculus Rift was the hardware used for the virtual reality experience. Still waiting for the those Oculus Touches so we can start playing with those lights...</p>
                         
                     </div>
                     <div class="col-sm-4 what-we-do-box wow fadeInDown">
-                        <div class="what-we-do-box-icon"><i class="fa fa-wifi"></i></div>
-                        <h3></h3>
-                        <p></p>
+                        <div class="what-we-do-box-icon"><i class="fa fa-gamepad"></i></div>
+                        <h3>Unity 3D</h3>
+                        <p>The 3D environment was built using the Unity game engine.</p>
                     </div>
                     <div class="col-sm-4 what-we-do-box wow fadeInUp">
-                        <div class="what-we-do-box-icon"><i class="fa fa-tablet"></i></div>
-                        <h3></h3>
-                        <p></p>
+                        <div class="what-we-do-box-icon"><i class="fa fa-align-justify"></i></div>
+                        <h3>Coroutines</h3>
+                        <p>I played around with multithreading using Unity's Coroutines. This is important for light control since there is so much parallel activity happening.</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-6 what-we-do-box wow fadeInUp">
-                        <div class="what-we-do-box-icon"><i class="fa fa-cloud-upload"></i></div>
-                        <h3></h3>
-                        <p></p>
+                    <div class="col-sm-4 what-we-do-box wow fadeInUp">
+                        <div class="what-we-do-box-icon"><i class="fa fa-music"></i></div>
+                        <h3>Music AI</h3>
+                        <p>I fused Bermuda's music logic system with the light control to procedurally generate a light show to any song you play on stage.</p>
                     </div>
-                    <div class="col-sm-6 what-we-do-box wow fadeInUp">
+                    <div class="col-sm-4 what-we-do-box wow fadeInUp">
+                        <div class="what-we-do-box-icon"><i class="fa fa-flask"></i></div>
+                        <h3>R n D</h3>
+                        <p>Research and development is important to grasp the real life experience, especially when you're trying to create an immersive virtual reality game. The team and I actually go to music festivals and study how light show engineers use their tools.</p>
+                    </div>
+                    <div class="col-sm-4 what-we-do-box wow fadeInUp">
                         <div class="what-we-do-box-icon"><i class="fa fa-code"></i></div>
-                        <h3></h3>
-                        <p></p>
+                        <h3>C#</h3>
+                        <p>Majority of the experience was built using the scripting language C#.</p>
                     </div>
+                    
                     
                 </div>
             </div>
         </div>
 
-        <!-- Demo -->
-        <div class="demo-container section-container">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4 what-we-do-box wow fadeInUp">
-                        
-                    </div>
-                    <div class="col-sm-4 what-we-do-box wow fadeInUp">
-                        <img src="assets/img/portfolio/dlassets/Drewslist.gif" alt="" data-at2x="assets/img/portfolio/dlassets/Drewslist.gif">
-                    </div>
-                    <div class="col-sm-4 what-we-do-box wow fadeInUp">
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <!-- Frameworks -->
-        <div class="block-1-container frameworks-container section-container section-container-gray">
+        <div class="block-1-container frameworks-container section-container section-container-white">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 block-1 section-description wow fadeIn">
                         <h2>Frameworks</h2>
                         <div class="divider-1 wow fadeInUp"><span></span></div>
                         <p>
-                            these frameworks
+                            These frameworks magnified the potential of PLUR VR with music logic and visual effects.
                         </p>
                     </div>
                 </div>
                 <div class="row">
                     
                     <div class="col-sm-6 block-1-right wow fadeInUp">
-                        <h3></h3>
-                        <p></p>
+                        <h3>Bermuda</h3>
+                        <p>The music logic system that was made to detect bpm, what stage of the song it was in, when the drop hits, etc. The lights are controlled by Bermuda for when the player doesn't want be the light show engineer and just wants to enjoy the show.</p>
                         
-                        <h3></h3>
-                        <p></p>
                         
-                        <h3></h3>
-                        <p></p>
                     </div>
                     <div class="col-sm-6 block-1-right wow fadeInUp">
-                        <h3></h3>
-                        <p></p>
+                        <h3>Ultimate Bloom</h3>
+                        <p>Unity camera effects to make the visual experience more epic and realistic.</p>
                         
-                        <h3></h3>
-                        <p></p>
-
-                        <h3></h3>
-                        <p></p>
+                        
 
                     </div>
                 </div>
