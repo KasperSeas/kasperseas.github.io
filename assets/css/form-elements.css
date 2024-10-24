@@ -6,7 +6,7 @@ textarea {
     vertical-align: middle;
     background: none;
     border: 1px solid #ddd;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 22px;
     font-weight: 400;
     color: #ccc;
@@ -44,7 +44,7 @@ button.btn {
     vertical-align: middle;
     background: #8ec1cd;
     border: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 22px;
     font-weight: 400;
     line-height: 52px;

@@ -1,7 +1,7 @@
 
 body {
-	background: #fff;
-    font-family: 'Lato', sans-serif;
+	background: #131313;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     color: #888;
     text-align: center;
@@ -15,18 +15,26 @@ a, a:hover, a:focus {
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
 
-h1, h2 {
-	margin-top: 10px;
-	font-size: 42px;
+h1 {
+	margin-top: 1rem;
+	font-size: 7rem;
     font-weight: 700;
-    color: #666;
-    line-height: 54px;
+    color: #ffffff;
+    line-height: 10rem;
+}
+
+h2 {
+	margin-top: 1rem;
+	font-size: 5rem;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 10rem;
 }
 
 h3 {
-	font-size: 30px;
-    font-weight: 700;
-    color: #666;
+	line-height: 3rem;
+    font-weight: 200;
+    color: #ffffff;
     line-height: 34px;
 }
 
@@ -236,7 +244,10 @@ nav a:focus { color: #eee; outline: 0; }
 .top-content-text h1, 
 .top-content-text h1 a, 
 .top-content-text h1 a:hover, 
-.top-content-text h1 a:focus { color: #fff; text-decoration: none; }
+.top-content-text h1 a:focus { 
+	color: #fff; 
+	text-decoration: none; 
+}
 
 .top-content-text p {
 	opacity: 0.9;
